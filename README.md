@@ -36,3 +36,34 @@ int main()
 }
 ```
 ¡Y listo! Permite realizar dibujos de un modo sencillo. Para un ejemplo, ejecuta main.cpp de la carpeta source.
+
+## ¿Cómo dibujar?
+### pendown()
+Baja el lápiz de dibujo. La tortuga va a dibujar solo cuando el lápiz este abajo.
+
+### penup()
+Levanta el lápiz de dibujo. Mientras el lápiz este arriba, la tortuga no va a dibujar.
+
+### forward(distancia)
+Dibujará una línea según la distancia indicada. Solo dibuja si el lápiz está abajo, es decir si se llamó antes a pendown(). Si el lápiz está arriba, se moverá sin dibujar.
+```c++
+	tu->forward(3);
+```
+### left(ángulo)
+La tortuga girará a la izquierda según el ángulo indicado.
+```c++
+	tu->left(90);
+```
+### right(ángulo)
+La tortuga girará a la derecha según el ángulo indicado.
+```c++
+	tu->right(90);
+```
+### go(x,y)
+La tortuga se va a dirigir al punto indicado.
+```c++
+	tu->go(-2,0);
+``
+
+### pencolor(r,g,b)
+Cambiar el color del dibujo
