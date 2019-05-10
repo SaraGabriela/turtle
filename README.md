@@ -63,7 +63,10 @@ La tortuga girará a la derecha según el ángulo indicado.
 La tortuga se va a dirigir al punto indicado.
 ```c++
 	tu->go(-2,0);
-``
+```
 
 ### pencolor(r,g,b)
 Cambiar el color del dibujo
+
+## Authors
+- [Sara Díaz Oporto](https://github.com/SaraGabriela)
