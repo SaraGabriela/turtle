@@ -1,0 +1,151 @@
+\hypertarget{classturtle}{}\section{turtle Class Reference}
+\label{classturtle}\index{turtle@{turtle}}
+
+
+Clase con funcionalidad similar a la tortuga de Python. @detail Definicion de la funciones usadas en la clase.  
+
+
+
+
+{\ttfamily \#include $<$turtle.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classturtle_a38abda65e64c33bd48bdd6662bef1bf2}{turtle}} ()
+\item 
+void \mbox{\hyperlink{classturtle_a143af204e99516b62c98819342d1926c}{start\+Turtle}} ()
+\item 
+void \mbox{\hyperlink{classturtle_ad00882aa7ab7d41770d50e9112138fe1}{forward}} (G\+Ldouble dis)
+\item 
+void \mbox{\hyperlink{classturtle_a52c30b7ecd387a2a4f7c7f5e5ae3cf53}{left}} (G\+Ldouble angle)
+\item 
+void \mbox{\hyperlink{classturtle_a00c343717c40ee2540260b77f7ca605f}{right}} (G\+Ldouble angle)
+\item 
+void \mbox{\hyperlink{classturtle_afe37f1aeba6de628a66e65e10e6d4b9d}{penup}} ()
+\item 
+void \mbox{\hyperlink{classturtle_a69c2ddc590397f4eab48f99a95f1647b}{pendown}} ()
+\item 
+void \mbox{\hyperlink{classturtle_a8f4ba1bb435b5a8a25fd381cd10120ff}{pencolor}} (float \+\_\+r, float \+\_\+g, float \+\_\+b)
+\item 
+void \mbox{\hyperlink{classturtle_a8ff5abdc6c30e0d2781029c304ccc6d9}{go}} (G\+Ldouble dx, G\+Ldouble dy)
+\item 
+void \mbox{\hyperlink{classturtle_a43c0e14ffac82be79c6f10532765f13c}{display}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classturtle_a1598c2ba3f8645f8312695793e4c9cbd}{set\+Instance}} (\mbox{\hyperlink{classturtle}{turtle}} $\ast$t)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Clase con funcionalidad similar a la tortuga de Python. @detail Definicion de la funciones usadas en la clase. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classturtle_a38abda65e64c33bd48bdd6662bef1bf2}\label{classturtle_a38abda65e64c33bd48bdd6662bef1bf2}} 
+\index{turtle@{turtle}!turtle@{turtle}}
+\index{turtle@{turtle}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{turtle()}{turtle()}}
+{\footnotesize\ttfamily turtle\+::turtle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Crear la turtle. Empieza en la coordenada (0,0) 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classturtle_a43c0e14ffac82be79c6f10532765f13c}\label{classturtle_a43c0e14ffac82be79c6f10532765f13c}} 
+\index{turtle@{turtle}!display@{display}}
+\index{display@{display}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void turtle\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Muestra el dibujo realizado Es necesario para visualizar los graficos realizados. Se ubica al final del documento. \mbox{\Hypertarget{classturtle_ad00882aa7ab7d41770d50e9112138fe1}\label{classturtle_ad00882aa7ab7d41770d50e9112138fe1}} 
+\index{turtle@{turtle}!forward@{forward}}
+\index{forward@{forward}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily void turtle\+::forward (\begin{DoxyParamCaption}\item[{G\+Ldouble}]{dis }\end{DoxyParamCaption})}
+
+Avanzar una distancia determinada 
+\begin{DoxyParams}{Parameters}
+{\em dis} & es la distancia que la tortuga va a recorrer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classturtle_a8ff5abdc6c30e0d2781029c304ccc6d9}\label{classturtle_a8ff5abdc6c30e0d2781029c304ccc6d9}} 
+\index{turtle@{turtle}!go@{go}}
+\index{go@{go}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{go()}{go()}}
+{\footnotesize\ttfamily void turtle\+::go (\begin{DoxyParamCaption}\item[{G\+Ldouble}]{dx,  }\item[{G\+Ldouble}]{dy }\end{DoxyParamCaption})}
+
+Ir a un punto en el plano 
+\begin{DoxyParams}{Parameters}
+{\em dx} & es la coordenada del punto en x \\
+\hline
+{\em dy} & es la coordenada del punto en y \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classturtle_a52c30b7ecd387a2a4f7c7f5e5ae3cf53}\label{classturtle_a52c30b7ecd387a2a4f7c7f5e5ae3cf53}} 
+\index{turtle@{turtle}!left@{left}}
+\index{left@{left}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{left()}{left()}}
+{\footnotesize\ttfamily void turtle\+::left (\begin{DoxyParamCaption}\item[{G\+Ldouble}]{angle }\end{DoxyParamCaption})}
+
+Que la tortuga gire a la izquierda 
+\begin{DoxyParams}{Parameters}
+{\em angle} & es el angulo que girara hacia la izquierda \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classturtle_a8f4ba1bb435b5a8a25fd381cd10120ff}\label{classturtle_a8f4ba1bb435b5a8a25fd381cd10120ff}} 
+\index{turtle@{turtle}!pencolor@{pencolor}}
+\index{pencolor@{pencolor}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{pencolor()}{pencolor()}}
+{\footnotesize\ttfamily void turtle\+::pencolor (\begin{DoxyParamCaption}\item[{float}]{\+\_\+r,  }\item[{float}]{\+\_\+g,  }\item[{float}]{\+\_\+b }\end{DoxyParamCaption})}
+
+Cambiar el color del lapiz en R\+GB. (Por ejemplo\+: 000 es negro) 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+r} & es la cantidad de color rojo (de 0 a 255) \\
+\hline
+{\em \+\_\+g} & es la cantidad de color verde (de 0 a 255) \\
+\hline
+{\em \+\_\+b} & es la cantidad de color azul (de 0 a 255) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classturtle_a69c2ddc590397f4eab48f99a95f1647b}\label{classturtle_a69c2ddc590397f4eab48f99a95f1647b}} 
+\index{turtle@{turtle}!pendown@{pendown}}
+\index{pendown@{pendown}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{pendown()}{pendown()}}
+{\footnotesize\ttfamily void turtle\+::pendown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Baja el lapiz de dibujo La tortuga va a dibujar solo cuando el lapiz este abajo \mbox{\Hypertarget{classturtle_afe37f1aeba6de628a66e65e10e6d4b9d}\label{classturtle_afe37f1aeba6de628a66e65e10e6d4b9d}} 
+\index{turtle@{turtle}!penup@{penup}}
+\index{penup@{penup}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{penup()}{penup()}}
+{\footnotesize\ttfamily void turtle\+::penup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Levanta el lapiz de dibujo Mientras el lapiz este arriba, la tortuga no va a dibujar \mbox{\Hypertarget{classturtle_a00c343717c40ee2540260b77f7ca605f}\label{classturtle_a00c343717c40ee2540260b77f7ca605f}} 
+\index{turtle@{turtle}!right@{right}}
+\index{right@{right}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{right()}{right()}}
+{\footnotesize\ttfamily void turtle\+::right (\begin{DoxyParamCaption}\item[{G\+Ldouble}]{angle }\end{DoxyParamCaption})}
+
+Que la tortuga gire a la derecha 
+\begin{DoxyParams}{Parameters}
+{\em angle} & es el angulo que girara hacia la derecha \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classturtle_a1598c2ba3f8645f8312695793e4c9cbd}\label{classturtle_a1598c2ba3f8645f8312695793e4c9cbd}} 
+\index{turtle@{turtle}!setInstance@{setInstance}}
+\index{setInstance@{setInstance}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{setInstance()}{setInstance()}}
+{\footnotesize\ttfamily void turtle\+::set\+Instance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classturtle}{turtle}} $\ast$}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Crear una instancia de turtle. Es necesario para empezar a dibujar \mbox{\Hypertarget{classturtle_a143af204e99516b62c98819342d1926c}\label{classturtle_a143af204e99516b62c98819342d1926c}} 
+\index{turtle@{turtle}!startTurtle@{startTurtle}}
+\index{startTurtle@{startTurtle}!turtle@{turtle}}
+\subsubsection{\texorpdfstring{startTurtle()}{startTurtle()}}
+{\footnotesize\ttfamily void turtle\+::start\+Turtle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Crea la ventana donde se dibujara la turtle Es necesaria para empezar a dibujar 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Codigo\+Un/lp3/glut\+Paint/glut\+Paint/\mbox{\hyperlink{turtle_8h}{turtle.\+h}}\item 
+D\+:/\+Codigo\+Un/lp3/glut\+Paint/glut\+Paint/\mbox{\hyperlink{turtle_8cpp}{turtle.\+cpp}}\end{DoxyCompactItemize}
