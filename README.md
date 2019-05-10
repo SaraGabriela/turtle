@@ -4,10 +4,10 @@ Turtle en C++
 ## Descripción
 Código que simula la tortuga de Python haciendo uso de OpenGL. Permite realizar gráficos simples por medio de un plano de coordenadas. Empieza a dibujar en (0,0).
 
-##¿Cómo se usa?
-##1. Instalar OpenGL
+## ¿Cómo se usa?
+### 1. Instalar OpenGL
 
-##2. Usar la estructura
+### 2. Usar la estructura
 Primero se crea una instancia del objeto que se va a dibujar y se crea la ventana donde se va a dibujar.
 ```c++
 	turtle * tu = new turtle();
