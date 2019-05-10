@@ -5,7 +5,15 @@ Turtle en C++
 Código que simula la tortuga de Python haciendo uso de OpenGL. Permite realizar gráficos simples por medio de un plano de coordenadas. Empieza a dibujar en (0,0).
 
 ## ¿Cómo se usa?
-### 1. Instalar OpenGL
+### 1. Instalar Glut
+Referencias para instalar GLUT al usar DevC++:
+https://www.quora.com/How-do-I-run-OpenGL-in-DEV-C++
+https://www.youtube.com/watch?v=RTk6W67dyR4
+
+Referencias para instalar GLUT al usar Visual Studio:
+https://elcodigografico.wordpress.com/2017/07/31/opengl-glut-con-visual-studio-2017/
+https://www.youtube.com/watch?v=HKGJrzAuTvU
+
 
 ### 2. Usar la estructura
 Primero se crea una instancia del objeto que se va a dibujar y se crea la ventana donde se va a dibujar.
