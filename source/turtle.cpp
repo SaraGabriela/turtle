@@ -1,3 +1,9 @@
+/** @file turtle.cpp
+@author Sara Diaz Oporto
+@version Revision 1.1
+@brief Clase turtle que permite realizar graficos con un comportamiento similar a turtle python.
+*/
+
 #include "turtle.h"
 
 turtle * turtle::instance = 0;
@@ -27,8 +33,7 @@ void turtle::forward(GLdouble dis)  // Move forward; draw if pen is down
 	if (dis != 0) {
 		dis = dis / 10;
 	}
-	/*newx = x + dis * cos(Pi * dir / 180.0);
-	newy = y + dis * sin(Pi * dir / 180.0);*/
+
 	if (vPuntos.size() > 1) {
 		newx = vPuntos[(vPuntos.size()) - 1]->getX() + dis * cos(Pi * dir / 180.0);
 		newy = vPuntos[(vPuntos.size()) - 1]->getY() + dis * sin(Pi * dir / 180.0);
@@ -66,7 +71,7 @@ void turtle::startTurtle() {
 
 	glutInit(&argc, argv);
 
-	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_ALPHA); //GLUT_STENCIL | GLUT_DOUBLE | GLUT_DEPTH
+	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_ALPHA); 
 
 	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(50, 50);
@@ -101,10 +106,6 @@ void turtle::auxDisplayWrap() {
 void turtle::auxDisplay() {
 
 	glClear(GL_COLOR_BUFFER_BIT);
-	/*if (pen) {
-		glVertex2d(x, y);
-		glVertex2d(newx, newy);
-	}*/
 	for (unsigned int i = 1; i < vPuntos.size(); i++) {
 		if (vPuntos[i]->getF()) {
 			glBegin(GL_LINES);
@@ -127,8 +128,8 @@ void turtle::pendown() {
 	pen = 1;
 }
 
-void turtle::pencolor(float _f, float _g, float _b) {
-	r = _f;
+void turtle::pencolor(float _r, float _g, float _b) {
+	r = _r;
 	g = _g;
 	b = _b;
 }

@@ -1,3 +1,8 @@
+/** @file main.cpp
+@author Sara Diaz Oporto
+@version Revision 1.1
+@brief Clase turtle que permite realizar graficos con un comportamiento similar a turtle python.
+*/
 #include <iostream>
 #include "turtle.h"
 
